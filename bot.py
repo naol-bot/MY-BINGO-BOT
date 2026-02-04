@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 
 # ከ BotFather ያገኘኸውን Token እዚህ ጋር በዝርዝር አስገባ
-TOKEN = 8247568982:AAHVDdJ82EhphoGeqnUn-vNbSVdiILZSMqs
+TOKEN = 8247568982:(AAHVDdJ82EhphoGeqnUn-vNbSVdiILZSMqs)
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
